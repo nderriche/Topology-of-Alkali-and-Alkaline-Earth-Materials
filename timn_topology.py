@@ -801,53 +801,6 @@ for band_number in chosen_bands:
 
 
 
-
-
-
-
-
-
-
-
-
-
-#%% Symbolic Checking
-
-
-#Declaring my variables and the Hamiltonian, and getting the evals
-k = sym.Symbol('k')
-delta = sym.Symbol('Delta')
-t_mn = sym.Symbol('t')
-t_mix = sym.Symbol('t\'')
-t_ti = sym.Symbol('t\'\'')
-
-a = sym.Symbol('a')
-b = sym.Symbol('b')
-c = sym.Symbol('c')
-d = sym.Symbol('d')
-
-#H = sym.Matrix([ [0,2,0,0,0,0], [2,0,0,0,0,0], [0,0,0,2,0,0], [0,0,2,0,0,0], [0,0,0,0,1,0], [0,0,0,0,0,1]  ])
-H = sym.Matrix([ [0,a,0,0], [b,0,0,0], [0,0,0,c], [0,0,d,0]  ])
-
-T_matrix = sym.Matrix([[1/n.sqrt(2),1/n.sqrt(2),0,0], [1/n.sqrt(2),-1/n.sqrt(2),0,0], [0,0,1/n.sqrt(2),1/n.sqrt(2)], [0,0,1/n.sqrt(2),-1/n.sqrt(2)]])
- 
-H_T = T_matrix.inv() @ (H @ T_matrix)
-
-
-#Showing H, the evals and evecs as images
-display(H)
-display(T_matrix)
-display(H_T)
-
-
-
-
-
-
-
-
-
-
 #%% Mixed Bands (k and real space) Plotting from symbolic Hamiltonian
 
 
