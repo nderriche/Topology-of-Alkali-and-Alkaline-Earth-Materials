@@ -190,7 +190,7 @@ fig.tight_layout()
 
 
 
-#%% Figure 3) Bands and Eigenstates at different topological phases
+#%% Figure 2) Bands and Eigenstates at different topological phases
 
 #Initial Parameters 
 kdens = 201
