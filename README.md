@@ -26,7 +26,7 @@ Finally, there are also helper cells that are useful when dealing with certain l
 
 ## 2. [paper_figures.py](paper_figures.py)
 
-This is the Python script used to produce the figures in the published paper linked above, except for Figure 3 which is an explicatory conceptual diagram. It consists of importing the proper data, and using the right matplotlib methods and parameters to neatly group and present the relevant data; they are all plots with many subplots.
+This is the Python script used to produce the figures in the published paper linked above, except for Figure 3 which is an explicatory conceptual diagram. It consists of importing the proper data, and using the right matplotlib methods and parameters to neatly group and present that data; they are all plots with many subplots.
 
 
 
